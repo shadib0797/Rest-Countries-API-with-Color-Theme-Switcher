@@ -59,7 +59,7 @@ function countryDiv(country) {
     
     `<div class="country">
         <div class="image">
-             <img src=${country.flags.png}>
+             <img src=${country.flags.png} alt="country-image">
         </div>
         <div class="content">
             <div class="name" onclick="handleClick(event)">${country.name}</div>
